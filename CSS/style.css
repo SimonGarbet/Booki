@@ -1,3 +1,23 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+
+nav a { 
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 77px;
+    padding-top: 46px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a:hover{
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
