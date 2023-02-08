@@ -433,7 +433,7 @@ footer{
 /*Media Queries Tablette*/
 
 
-@media all and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
 
 .filtres{
     display: flex;
@@ -513,9 +513,7 @@ footer {
 
 
 
-@media all and (max-width: 768px) {
-
-
+@media screen and (max-width: 768px) {
     
     
     header {
@@ -576,13 +574,14 @@ footer {
     
     
     .bouton_rechercher{
-        width: 13%;
         visibility: hidden;
+        width: 0px;
+        height: 0px;
     }
     .bouton_rechercher_2{
         visibility: visible;
-        margin-left: -90px;
-        width: 13%;
+        margin-left: -40px;
+        min-width: 19px;
     }
     
     .filtres {
@@ -666,6 +665,7 @@ footer {
     .populaires{
         width: 100%;
         border-radius: 0px;
+        margin-right: 0px;
     }
     
     .populaires_titre{
@@ -715,8 +715,9 @@ footer {
 
     
     footer {
-        margin-left: 0%;
-        margin-right: 0%;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
         flex-direction: column;
         padding-top: 0px;
     }
