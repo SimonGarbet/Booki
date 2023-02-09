@@ -361,7 +361,7 @@ h3{
 h4{
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 18.47;
+    margin-bottom: 18.47px;
 }
 
 
@@ -469,7 +469,7 @@ footer{
 
 .populaires{
     width: 100%;
-    min-width: none;
+    min-width: 0px;
 }
 
 .populaires_titre{
