@@ -629,7 +629,6 @@ footer {
         padding: 2px;
         border-radius: 25px;
         white-space: wrap;
-        min-width: 140px;
         font-size: 14px;
         display: flex;
         align-items: first baseline;
