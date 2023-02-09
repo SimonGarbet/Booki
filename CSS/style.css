@@ -618,6 +618,8 @@ footer {
 
     .filtres_2{
         margin-top: -35px;
+        display: flex;
+        align-items: center;
     }
 
    
