@@ -433,7 +433,7 @@ footer{
 /*Media Queries Tablette*/
 
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media all and (max-width: 992px) and (min-width: 768px) {
 
 .filtres{
     display: flex;
@@ -513,7 +513,12 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
+
+    html,body{
+        width:100%;
+        overflow-x:hidden;
+        }
     
     
     header {
@@ -573,15 +578,21 @@ footer {
     }
     
     
+    .recherche_boutons{
+        display: flex;
+    }
+
     .bouton_rechercher{
         visibility: hidden;
-        width: 0px;
-        height: 0px;
+        height: 1px;
+        width: 1px;
+        order: 2;
     }
+
     .bouton_rechercher_2{
         visibility: visible;
-        margin-left: -40px;
         min-width: 19px;
+        order: 1;
     }
     
     .filtres {
