@@ -561,7 +561,7 @@ footer {
 
 
     .recherche{
-        margin: auto;
+        width: 89%;
     }
 
 
@@ -691,14 +691,24 @@ footer {
         width: 100%;
         border-radius: 0px;
         margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .populaires_titre{
-        margin: 15px 39px 15px 40px
+        width: 89%;
+    }
+
+    .presentation_populaires{
+        width: 100%;
     }
     
     .presentation_populaires a {
         width: 89%;
+    }
+
+    .presentation_populaires img{
         height: 144px;
     }
 
@@ -712,19 +722,20 @@ footer {
 
     .activités {
         margin-bottom: 100px;
+        width: 89%;
     }
     
     .presentation_activités {
+        
         height: auto;
         display: flex;
         flex-direction: column;
     }
 
     .presentation_activités a {
-        width: 89%;
         height: 190px;
         margin-top: 24px;
-        
+        width: 100%;
     }
     
     .presentation_activités img {
@@ -745,6 +756,10 @@ footer {
         margin-right: 0px;
         flex-direction: column;
         padding-top: 0px;
+    }
+
+    .bloc_footer{
+        margin-left: 3.5%;
     }
 
     .titre_footer{
