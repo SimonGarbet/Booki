@@ -219,7 +219,7 @@ input::placeholder {
 
 
 .hebergements{
-    background-color: #d9d9d9;
+    background-color: #F2F2F2;
     border-radius: 20px;
     
     width: 71%;
@@ -301,7 +301,7 @@ h5 {
 }
 
 .grise{
-    color: #d9d9d9;
+    color: #F2F2F2;;
 }
 
 
@@ -328,7 +328,7 @@ h5 {
 
 
 .populaires {
-    background-color: #d9d9d9;
+    background-color: #F2F2F2;;
     border-radius: 20px;
 
     width: 31%;
@@ -471,7 +471,7 @@ h4{
 footer{
     max-width: 1400px;
 
-    background-color: #d9d9d9;
+    background-color: #F2F2F2;
 
     width: 93%;
     margin-top: 61px;
