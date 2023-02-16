@@ -505,7 +505,7 @@ footer{
 /*Media Queries Tablette*/
 
 
-@media all and (max-width: 992px) and (min-width: 768px) {
+@media all and (max-width: 992px) {
 
 
 
@@ -704,22 +704,30 @@ footer {
 
     .global_filtres {
         margin-top: 34px;
-
+        
+        flex-direction: column;
     }
     
     .presentation_filtres{
         margin: auto;
         width: 100%;
+        gap: 0%;
+    }
+
+    .filtres_1{
+        margin: 0%;
     }
     
     .filtres_1, .filtres_2{
         width: 100%;
-        gap: 4%;
-        justify-content: space-around;
+        
+        justify-content: flex-start;
+        gap: 2%;
     }
 
     .filtres_2{
-        margin-top: -35px;
+        margin: 0%;
+
         display: flex;
         align-items: center;
     }
@@ -730,6 +738,7 @@ footer {
 
         width: 50%;
         padding: 2px;
+        margin: 5px;
         
         display: flex;
         align-items: first baseline;
@@ -805,6 +814,7 @@ footer {
 
     .presentation_populaires{
         width: 100%;
+        flex-direction: column;
     }
 
 
@@ -851,7 +861,7 @@ footer {
     
     .presentation_activités p{ 
         height: 56px;
-        padding-bottom: 40px;
+       margin: 15px;
     }
 
 
@@ -861,7 +871,7 @@ footer {
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-top: 0px;
+        padding-top: 20px;
 
         display: flex;
         flex-direction: column;
@@ -869,6 +879,7 @@ footer {
 
     .bloc_footer{
         margin-left: 3.5%;
+        padding-top: 0px;
     }
 
     .titre_footer{
